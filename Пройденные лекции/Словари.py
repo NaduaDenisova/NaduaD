@@ -24,15 +24,10 @@ else:
     print("Ключ 'color' отсутствует")
 
 # Задача 3 (Добавление и обновление элементов словаря)
-laptop = {
-    "brand": "Lenovo",
-    "ram": 8
-}
+laptop = {"brand": "Lenovo", "ram": 16, "storage": 256}
 # Добавь новый ключ "storage" со значением 256
 # Обнови значение ключа "ram" на 16
 # Выведи изменённый словарь
-laptop["storage"] = 256
-laptop["ram"] = 16
 print(laptop)
 if "processor" not in laptop:
     laptop["processor"] = "Intel Core i5"

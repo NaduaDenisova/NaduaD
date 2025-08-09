@@ -62,11 +62,11 @@ for result in range(15, 31):
 N = int(input("Введите N: "))
 i = 1
 while i <= N:
-    square = i ** 2
-    if square > 100:
+    result = i ** 2
+    if result > 100:
         print("Конец (превышен лимит 100)")
         break
-    print(square)
+    print(result)
     i += 1
 
 
