@@ -92,7 +92,6 @@ class Book:
     library_name = "Моя библиотека"
 
 
-
 my_book = Book()
 print(Book.library_name)
 print(my_book.library_name)
