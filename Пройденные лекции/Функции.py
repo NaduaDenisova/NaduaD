@@ -15,9 +15,12 @@ def repeat_call(times):
         return wrapper
     return decorator
 
+
 @repeat_call(3)
 def get_number():
     return 42
+
+
 print(get_number())
 
 # Задача 1 (Создание и вызов функций)
